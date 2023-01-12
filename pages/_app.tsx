@@ -1,3 +1,4 @@
+import "normalize.css";
 import "../styles/globals.scss";
 import type { AppProps } from "next/app";
 import localFont from "@next/font/local";
@@ -60,7 +61,7 @@ export default function App({ Component, pageProps }: AppProps) {
           font-family: ${graphic.style.fontFamily};
         }
       `}</style>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }

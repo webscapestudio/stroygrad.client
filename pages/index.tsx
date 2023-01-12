@@ -9,7 +9,9 @@ export default function Home() {
         <title>{process.env.SITE_TITLE}</title>
       </Head>
 
-      <h1>fsdfsd</h1>
+      <main>
+        <div className="container mx-auto">asd</div>
+      </main>
     </>
   );
 }
